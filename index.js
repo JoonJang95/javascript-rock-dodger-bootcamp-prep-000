@@ -9,7 +9,7 @@ const LEFT_ARROW = 37 // use e.which!
 const RIGHT_ARROW = 39 // use e.which!
 const ROCKS = []
 const START = document.getElementById('start')
-START.innerHTML = "Joon\'s Game 오예~~ (START)"
+START.innerHTML = "Joon\'s Game (START)"
 
 var gameInterval = null
 
@@ -143,7 +143,7 @@ function endGame() {
   
   alert("YOU LOSE!");
   
-  START.innerHTML = 'You\'re kinda really bad (TRY AGAIN)'; 
+  START.innerHTML = 'Try Again?'; 
   START.style.display = 'inline';
   
   DODGER.style.left = `180px`
