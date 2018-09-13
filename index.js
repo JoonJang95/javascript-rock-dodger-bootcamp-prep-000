@@ -143,7 +143,7 @@ function endGame() {
   
   alert("YOU LOSE!");
   
-  START.innerHTML = 'You\'re kinda bad (TRY AGAIN)'; 
+  START.innerHTML = 'You\'re kinda bad       (TRY AGAIN)'; 
   START.style.display = 'inline';
   
   DODGER.style.left = `180px`
