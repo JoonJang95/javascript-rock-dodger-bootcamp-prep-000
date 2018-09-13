@@ -9,7 +9,7 @@ const LEFT_ARROW = 37 // use e.which!
 const RIGHT_ARROW = 39 // use e.which!
 const ROCKS = []
 const START = document.getElementById('start')
-START.innerHTML = "Joon\'s Rock Dodger 오애~"
+START.innerHTML = "Joon\'s Game 오예~ (START)"
 
 var gameInterval = null
 
